@@ -1,4 +1,4 @@
-# To-do App - React/Redux
+# To-do Application - React/Redux
 
 This application will allow you to add/view tasks with different statuses - complete and incomplete.Also user can Change the status of the task individually or can refer to mass actions.
 
@@ -33,7 +33,7 @@ This will test entire application including components, ducks, thunks, utils fun
 
 
 ## Contributing
-1. Fork it ( https://github.com/SaurabhGaur01/todo-app/fork )
+1. Fork it ( https://github.com/SaurabhGaur01/todo-application/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
