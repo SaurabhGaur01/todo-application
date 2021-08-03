@@ -4,7 +4,7 @@ This application will allow you to add/view tasks with different statuses - comp
 
 This application utilises - React, Redux, Jest & Enzyme Testing, Bootstrap and Material UI.
 
-Click on [Demo](https://saurabhgaur01.github.io/todo-app/) for quick view.
+Click on [Demo](https://saurabhgaur01.github.io/todo-application/) for quick view.
 ## Installation & Usage
 
 Use the package manager [Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to run this project on your local. After installing, run below command to install all dependencies-
