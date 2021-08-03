@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewTodo Component should render correctly 1`] = `
+<li
+  key="1"
+>
+  <WithStyles(ForwardRef(Checkbox))
+    checked={true}
+    label={
+      <label
+        style={
+          Object {
+            "textDecoration": "line-through",
+          }
+        }
+      >
+        mockText
+      </label>
+    }
+    onClick={[MockFunction]}
+  />
+</li>
+`;

@@ -1,0 +1,43 @@
+import { ADD_TODO, CLEAR_TODO, MASS_ADD, TOGGLE_TODO } from '../constants/todos';
+
+const todo = (state, action) => {
+    switch (action.type) {
+        case ADD_TODO:
+            return {
+                id: action.id,
+                text: action.text,
+                completed: false
+            }
+        case TOGGLE_TODO:
+            if (state.id !== action.id) {
+                return state
+            }
+
+            return {
+                ...state,
+                completed: !state.completed
+            }
+        default:
+            return state
+    }
+}
+  
+export const todosReducer = (state = [], action) => {
+    switch (action.type) {
+      case ADD_TODO:
+        return [
+          ...state,
+          todo(undefined, action)
+        ]
+      case TOGGLE_TODO:
+        return state.map(t =>
+          todo(t, action)
+        )
+      case CLEAR_TODO:
+        return [];
+      case MASS_ADD:
+        return action.data;   
+      default:
+        return state
+    }
+}  

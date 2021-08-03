@@ -1,0 +1,78 @@
+.main-card {
+    margin-top: 12px;
+}
+
+.card-container {
+    margin: 3px 10px 8px;
+    height: 350px;
+    width: 505px !important;
+    margin-left: 25%;
+}
+
+.card-content{
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.text-box{
+    width: 395px;
+}
+
+.input-text {
+    padding-top: 10px;
+    display: flex;
+}
+
+.cus-button {
+    margin-top: 12px;
+}
+
+.heading-label {
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.first-section {
+    padding-bottom: 10px;
+}
+
+.empty-msg {
+    margin-left: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.mass-container {
+    margin-left: 25%;
+}
+
+.mass-buttons {
+    font-size: 16px !important;
+    font-style: normal;
+    text-transform: none !important;
+}
+
+.add-button {
+    margin-top: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-container{
+        height: 350px;
+        width: 400px !important;
+        margin-left: 5px;
+    }
+
+    .text-box{
+        width:315px;
+    }
+
+    .mass-container {
+        margin-left: 5px;
+        display: flex;
+    }
+
+    .mass-buttons {
+        font-size: 12px !important;
+    }   
+}    

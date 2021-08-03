@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`view Duck Tests Action Generator setView should match the snapshot 1`] = `
+Object {
+  "filter": undefined,
+  "type": "modules/todo-app/SET_VIEW",
+}
+`;

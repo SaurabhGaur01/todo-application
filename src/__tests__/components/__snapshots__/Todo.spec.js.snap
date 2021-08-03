@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo Component should render correctly 1`] = `
+<li>
+  <label
+    style={
+      Object {
+        "textDecoration": "line-through",
+      }
+    }
+  >
+    mockText
+  </label>
+  <WithStyles(ForwardRef(Checkbox))
+    checked={true}
+    onChange={[Function]}
+  />
+</li>
+`;

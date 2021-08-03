@@ -1,0 +1,3 @@
+export const VIEW_SHOW_ALL = 'SHOW_ALL';
+export const VIEW_SHOW_COMPLETED = 'SHOW_COMPLETED';
+export const VIEW_SHOW_ACTIVE = 'SHOW_ACTIVE';

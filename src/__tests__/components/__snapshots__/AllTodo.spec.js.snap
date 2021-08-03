@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllTodo Component should render correctly 1`] = `
+<div
+  className="main-card"
+>
+  <WithStyles(ForwardRef(Card))
+    className="card-container"
+  >
+    <WithStyles(ForwardRef(CardContent))
+      className="card-content"
+    >
+      <div
+        className="first-section"
+      >
+        <div
+          className="heading-label"
+        >
+          What needs to be done?
+        </div>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="input-text"
+          >
+            <div>
+              <WithStyles(ForwardRef(TextField))
+                className="text-box"
+                id="input"
+                label="Input your TODOs..."
+                onChange={[Function]}
+                value=""
+              />
+            </div>
+            <span>
+              <WithStyles(ForwardRef(Button))
+                type="submit"
+                variant="contained"
+              >
+                Add
+              </WithStyles(ForwardRef(Button))>
+            </span>
+          </div>
+        </form>
+      </div>
+      <Connect(TodoList) />
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(Card))>
+  <div
+    className="mass-container"
+  >
+    <WithStyles(ForwardRef(Button))
+      className="mass-buttons"
+      color="primary"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Mark all as complete
+    </WithStyles(ForwardRef(Button))>
+     
+    <WithStyles(ForwardRef(Button))
+      className="mass-buttons"
+      color="primary"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Mark all as incomplete
+    </WithStyles(ForwardRef(Button))>
+     
+    <WithStyles(ForwardRef(Button))
+      className="mass-buttons"
+      color="primary"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Clear all
+    </WithStyles(ForwardRef(Button))>
+  </div>
+</div>
+`;
